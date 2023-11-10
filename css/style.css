@@ -6,12 +6,12 @@
 }
 
 body {
-    background: var(--secondary-color);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: var(--secondary-color);
   overflow: hidden;
 }
 
@@ -55,4 +55,8 @@ h1 {
 p {
     font-family: 'poppins', sans-serif;
     color: var(--branding-color);
+}
+
+.container {
+    margin-top: 60px;
 }
